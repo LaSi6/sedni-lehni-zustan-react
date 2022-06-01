@@ -1,14 +1,18 @@
 import React from 'react';
 import './style.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Footer = () => (
     <footer className="footer">
         <div className="bottombar">
             <div className="footer-trainers">
                 <ul>Trenéři a rezervace lekcí:
-                    <li><a href="index.html">Denisa</a></li>
-                    <li><a href="index.html">Tomáš</a></li>
+                    <li>
+                        <Link to="/denisaplackova">Denisa</Link>
+                    </li>
+                    <li>
+                        <Link to="/tomasdobias">Tomáš</Link>
+                    </li>
                 </ul>
             </div>
             <div className="footer-location">
