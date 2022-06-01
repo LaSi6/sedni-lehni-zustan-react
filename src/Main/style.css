@@ -1,0 +1,246 @@
+:root {
+    --background-primary: rgba(0, 83, 48, 1);
+    --background-secondary: rgba(255, 255, 255, 1);
+    --background-var-a: rgba(250, 241, 165, 1);
+    --background-var-b: rgba(191, 230, 206, 1);
+    --background-var-c: rgba(214, 213, 213, 1);
+    --text-h1: rgba(250, 241, 165, 1);
+    --text-var-a: rgba(0, 83, 48, 1);
+    --text-var-b: rgba(3, 3, 3, 1);
+    --text-var-c: rgba(255, 255, 255, 1);
+    --text-hover-a: rgba(250, 241, 165, 1);
+    --text-hover-b: rgba(1, 161, 94, 1);
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Athiti&family=Cairo:wght@200;300;400;500;700;800;900&family=Exo+2:ital,wght@0,200;0,300;0,400;0,500;0,700;0,900;1,500&family=Josefin+Sans:ital,wght@0,100;0,300;0,400;0,700;1,600&display=swap');
+
+.top-section {
+    background-color: var(--background-primary);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.main-introduction{
+    padding: 15px;
+    padding-top: 65px;
+    max-width: 475px;
+    min-width: 320px;
+}
+
+.headline-main {
+    color: var(--text-h1);
+    font-size: 32px;
+    font-weight: 700;
+    padding: 5px;
+    width: 100%;
+}
+
+.introduction-narrow{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.introduction-text{
+    width: 65%;
+    font-size: 16px;
+    font-weight: 100;
+    color: var(--text-var-c);
+    padding-right: 10px;
+}
+.img-narrow-screen{
+    background-image: url(./img/uvod.jpeg);
+    width: 35%;
+    height: 160px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 5px;
+}
+
+/* Dlaždice */
+
+.main-experience,
+.tiles-experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.headline-experience{
+    width: 345px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+}
+
+.tile {
+    height: 257px;
+    width: 345px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.tile-img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.tile-img_first{
+    background-image: url(./img/pubertak.jpeg);
+}
+
+.tile-img_second{
+    background-image: url(./img/sebevedomy_pes.jpeg);
+}
+
+.tile-img_third{
+    background-image: url(./img/bazlivy_pes.jpeg);
+}
+
+.tile-img{
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.tile-text{
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.tile-link {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    font-size: 24px;
+    color: var(--text-var-a);
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+.tile a:hover {
+    color: var(--text-hover-b);
+}
+
+.tile-text_first,
+.tile-link_first {
+    background-color: var(--background-var-a);
+}
+
+.tile-text_second,
+.tile-link_second {
+    background-color: var(--background-var-b);
+}
+
+.tile-text_third,
+.tile-link_third {
+    background-color: var(--background-var-c);
+}
+
+.bottom-text-experience {
+    padding-bottom: 20px;
+    max-width: 445px;
+    margin: 20px;
+}
+
+@media (min-width:800px) {
+    .main-introduction {
+        max-width: 650px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .introduction-wide {
+        width: 65%;
+    }
+
+    .introduction-text {
+        width: 100%;
+    }
+
+    .img-narrow-screen {
+        background-image: none;
+        width: 0%;
+        height: 0%;
+        position: absolute
+    }
+
+    .img-wide-screen {
+        background-image: url(./img/uvod.jpeg);
+        width: 35%;
+        height: 200px;
+        background-size: cover;
+        background-position: top;
+        margin-top: 5px;
+    }
+
+    .tiles-experience {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .tile-text{
+        padding: 10px 20px 10px 20px
+    }
+
+    .tile,
+    .bottom-text-experience {
+        width: 300px;
+    }
+}
+
+@media (min-width:1024px) {
+    .headline-main{
+        font-size: 54px;
+        line-height: 81px;
+    }
+
+    .introduction-text{
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .main-introduction{
+        max-width: 1024px;
+        margin: 30px;
+    }
+
+    .img-wide-screen{
+        height: 300px;
+    }
+
+    .headline-experience{
+        font-size: 36px;
+        width: 1025px;
+    }
+
+    .tiles-experience{
+        width: 1024px;
+    }
+
+    .tile-text{
+        font-size: 18px;
+    }
+
+    .bottom-text-experience{
+        width: 600px;
+        font-size: 18px;
+    }
+}
+

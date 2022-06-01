@@ -1,0 +1,151 @@
+:root {
+    --background-primary: rgba(0, 83, 48, 1);
+    --background-secondary: rgba(255, 255, 255, 1);
+    --background-var-a: rgba(250, 241, 165, 1);
+    --background-var-b: rgba(191, 230, 206, 1);
+    --background-var-c: rgba(214, 213, 213, 1);
+    --text-h1: rgba(250, 241, 165, 1);
+    --text-var-a: rgba(0, 83, 48, 1);
+    --text-var-b: rgba(3, 3, 3, 1);
+    --text-var-c: rgba(255, 255, 255, 1);
+    --text-hover-a: rgba(250, 241, 165, 1);
+    --text-hover-b: rgba(1, 161, 94, 1);
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Athiti&family=Cairo:wght@200;300;400;500;700;800;900&family=Exo+2:ital,wght@0,200;0,300;0,400;0,500;0,700;0,900;1,500&family=Josefin+Sans:ital,wght@0,100;0,300;0,400;0,700;1,600&display=swap');
+
+header{
+    position: fixed;
+    top: 0;
+    background-color: var(--background-primary);
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.topbar-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    max-width: 475px;
+    align-items: center;
+}
+
+.site-logo{
+    background-image: url(./img/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 10px;
+
+    width: 100px;
+    height: 50px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 50px;
+  }
+  
+nav {
+    width: 10rem;
+    padding: 1rem;
+    z-index: 100;
+    position: absolute;
+    top: 70px;
+    transition: color 0.3s ease-in-out;
+    background-color: var(--background-primary);
+    box-shadow: 0px 5px 10px 0px black;
+}
+
+nav .link {
+    display: block;
+    margin: 1rem;
+    color: var(--text-var-c);
+    text-decoration: none;
+}
+
+nav .link:hover{
+    color: var(--text-hover-a);
+}
+
+.nav-closed{
+    display: none;
+}
+
+li .nav-trainer{
+    display: block;
+}
+
+.nav-btn {
+    width: 3rem;
+    height: 3rem;
+    padding: 0;
+    border: none;
+
+    background-color: transparent;
+    background-image: url(./img/menu.png);
+    background-size: contain;
+
+    cursor: pointer;
+}
+  
+.nav-btn:focus {
+    outline: none;
+}
+
+@media (min-width:800px) {
+    .topbar-container {
+        max-width: 650px;
+    }
+
+    .navigation {
+        flex-direction: row;
+      }
+    
+    nav {
+        width: initial;
+        position: static;
+        box-shadow: none;
+    }
+
+    nav .link {
+        display: inline-block;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+    }
+
+    .nav-closed {
+        display: inline-block;
+    }
+
+    .nav-btn {
+        display: none;
+    }
+
+    div .nav-closed_trainer {
+        display: none;
+    }
+
+    .nav-trainer{
+        position: absolute;
+    }
+
+}
+
+@media (min-width:1024px) {
+    .topbar-container {
+        max-width: 1024px;
+    }
+
+    .site-logo{
+        height: 70px;
+        width: 150px;
+    }
+
+    .navigation{
+        font-size: 18px;
+    }
+
+}
