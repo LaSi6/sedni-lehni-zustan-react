@@ -14,35 +14,36 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Athiti&family=Cairo:wght@200;300;400;500;700;800;900&family=Exo+2:ital,wght@0,200;0,300;0,400;0,500;0,700;0,900;1,500&family=Josefin+Sans:ital,wght@0,100;0,300;0,400;0,700;1,600&display=swap');
 
-.main-content{
+.main--section__tomas{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 30px;
 }
 
-.trainer-h1{
+.text--headline__tomas{
     font-size: 28px;
     color: var(--text-var-b);
     line-height: 32px;
     padding: 16px 0 16px 0;
 }
 
-.trainer-h2{
+.text--subheadline2__tomas{
     font-size: 24px;
     color: var(--text-var-a);
     line-height: 36px;
     padding:0px 0 16px 0;
 }
-.trainer-btn{
+.text--btn__tomas{
     width: 150px;
+    height: 45px ;
     background-color: var(--background-primary);
     color: var(--text-var-c);
     margin: 16px;
     text-align: center;
     padding: 10px 5px 10px 5px
 }
-.trainer-main{
+.container--trainer__tomas{
     padding: 15px;
     padding-top: 65px;
     max-width: 475px;
@@ -51,74 +52,74 @@
     flex-direction: row;
 }
 
-.trainer-img_1narrow{
+.tomas--img__1narrow{
     background-image: url(./img/Tom_hra.jpg);
 }
-.trainer-img_2narrow{
+.tomas--img__2narrow{
     background-image: url(./img/Tom_vycvik.jpg);
     background-position: top 20% right;
 }
-.trainer-img_3narrow{
+.tomas--img__3narrow{
     background-image: url(./img/Tom_sprt.jpg);
     background-position: top 35% right;
 }
 
-.trainer-img-narrow{
+.text--img{
     height: 300px;
     width: 100%;
     background-size: cover;
     margin-top: 20px;
 }
 
-.trainer-text{
+.trainer--text__tomas{
     margin-top: 20px;
 }
 
-.link-text{
+.text--link__tomas{
     color: var(--text-var-a);;
 }
 
-.link-text:hover{
+.text--link__tomas:hover{
     color: var(--text-hover-b);
     text-decoration: underline;
 }
 
-.trainer-head{
+.text--head__tomas{
     display: flex;
     justify-content: space-between;
 }
 
-.trainer-info,
-.trainer-lessons,
-.trainer-reservation{
+.text--main__tomas,
+.text--lessons__tomas,
+.text--reservation__tomas{
     padding-bottom: 16px;
 }
 
 @media (min-width:800px) {
 
-    .trainer-main{
+    .container--trainer__tomas{
         max-width: 650px;
     }
     
-    .trainer-gallery{
+    .trainer--gallery__tomas{
         padding: 0 20px 20px 0;
     }
-    .trainer-img_1{
+    .tomas--img__1{
         background-image: url(./img/Tom_hra.jpg);
         background-position: top right 30%;
     }
 
-    .trainer-img_2{
+    .tomas--img__2{
         background-image: url(./img/Tom_vycvik.jpg);
         background-position: top 30% right;
     }
 
-    .trainer-img_3{
+    .tomas--img__3{
         background-image: url(./img/Tom_sprt.jpg);
-        background-position: top 50% right;
+        background-position: top 30% right;
     }
 
-    .trainer-img{
+    .gallery--img{
         height: 200px;
         width: 30vw;
         min-width: 125px;
@@ -127,9 +128,9 @@
         margin-top: 20px;
     }
 
-    .trainer-img_1narrow,
-    .trainer-img_2narrow,
-    .trainer-img_3narrow{
+    .tomas--img__1narrow,
+    .tomas--img__2narrow,
+    .tomas--img__3narrow{
         display: none;
     }
 
@@ -137,11 +138,11 @@
 
 @media (min-width:1024px) {
 
-    .trainer-main{
+    .container--trainer__tomas{
         max-width: 1024px;
     }
 
-    .trainer-img{
+    .gallery--img{
         height: 220px;
         max-width: 230px;
         

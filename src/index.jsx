@@ -18,7 +18,7 @@ const App = () => (
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/" element={<Main />} />
+        <Route path="/" element={<Main />} className="test"/>
         <Route path="mapa" element={<Map />} />
         <Route path="tomasdobias" element={<Tomas />} />
         <Route path="denisaplackova" element={<Denisa />} />

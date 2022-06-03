@@ -1,0 +1,151 @@
+:root {
+    --background-primary: rgba(0, 83, 48, 1);
+    --background-secondary: rgba(255, 255, 255, 1);
+    --background-var-a: rgba(250, 241, 165, 1);
+    --background-var-b: rgba(191, 230, 206, 1);
+    --background-var-c: rgba(214, 213, 213, 1);
+    --text-h1: rgba(250, 241, 165, 1);
+    --text-var-a: rgba(0, 83, 48, 1);
+    --text-var-b: rgba(3, 3, 3, 1);
+    --text-var-c: rgba(255, 255, 255, 1);
+    --text-hover-a: rgba(250, 241, 165, 1);
+    --text-hover-b: rgba(1, 161, 94, 1);
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Athiti&family=Cairo:wght@200;300;400;500;700;800;900&family=Exo+2:ital,wght@0,200;0,300;0,400;0,500;0,700;0,900;1,500&family=Josefin+Sans:ital,wght@0,100;0,300;0,400;0,700;1,600&display=swap');
+
+.main--section__denisa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.text--headline__denisa{
+    font-size: 28px;
+    color: var(--text-var-b);
+    line-height: 32px;
+    padding: 16px 0 16px 0;
+}
+
+.text--subheadline2__denisa{
+    font-size: 24px;
+    color: var(--text-var-a);
+    line-height: 36px;
+    padding:0px 0 16px 0;
+}
+.text--btn__denisa{
+    width: 150px;
+    height: 45px ;
+    background-color: var(--background-primary);
+    color: var(--text-var-c);
+    margin: 16px;
+    text-align: center;
+    padding: 10px 5px 10px 5px
+}
+.container--trainer__denisa{
+    padding: 15px;
+    padding-top: 65px;
+    max-width: 475px;
+    min-width: 320px;
+    display: flex;
+    flex-direction: row;
+}
+
+.denisa--img__1narrow{
+    background-image: url(./img/denisa1.jpeg);
+}
+.denisa--img__2narrow{
+    background-image: url(./img/denisa2.jpeg);
+    background-position: top 20% right;
+}
+.denisa--img__3narrow{
+    background-image: url(./img/denisa3.jpeg);
+    background-position: top 35% right;
+}
+
+.text--img{
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.trainer--text__denisa{
+    margin-top: 20px;
+}
+
+.text--link__denisa{
+    color: var(--text-var-a);;
+}
+
+.text--link__denisa:hover{
+    color: var(--text-hover-b);
+    text-decoration: underline;
+}
+
+.text--head__denisa{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text--main__denisa,
+.text--lessons__denisa,
+.text--reservation__denisa{
+    padding-bottom: 16px;
+}
+
+@media (min-width:800px) {
+
+    .container--trainer__denisa{
+        max-width: 650px;
+    }
+    
+    .trainer--gallery__denisa{
+        padding: 0 20px 20px 0;
+    }
+    .denisa--img__1{
+        background-image: url(./img/denisa1.jpeg);
+        background-position: top right 50%;
+    }
+
+    .denisa--img__2{
+        background-image: url(./img/denisa2.jpeg);
+        background-position: top right 30%;
+    }
+
+    .denisa--img__3{
+        background-image: url(./img/denisa3.jpeg);
+        background-position: top right 30%;
+    }
+
+    .gallery--img{
+        height: 200px;
+        width: 30vw;
+        min-width: 125px;
+        max-width: 175px;
+        background-size: cover;
+        margin-top: 20px;
+    }
+
+    .denisa--img__1narrow,
+    .denisa--img__2narrow,
+    .denisa--img__3narrow{
+        display: none;
+    }
+
+}
+
+@media (min-width:1024px) {
+
+    .container--trainer__denisa{
+        max-width: 1024px;
+    }
+
+    .gallery--img{
+        height: 220px;
+        max-width: 230px;
+        
+    }
+
+}
