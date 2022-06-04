@@ -95,6 +95,12 @@
     padding-bottom: 16px;
 }
 
+.reenio-iframe{
+    height: 300px;
+    max-width: 475px;
+    min-width: 320px;
+}
+
 @media (min-width:800px) {
 
     .container--trainer__tomas{
@@ -134,6 +140,11 @@
         display: none;
     }
 
+    .reenio-iframe{
+        min-width: 650px;
+        max-width: 650px;
+    }
+
 }
 
 @media (min-width:1024px) {
@@ -146,6 +157,11 @@
         height: 220px;
         max-width: 230px;
         
+    }
+
+    .reenio-iframe{
+        min-width: 1024px;
+        max-width: 1024px;
     }
 
 }

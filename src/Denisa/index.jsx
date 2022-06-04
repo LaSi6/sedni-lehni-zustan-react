@@ -3,7 +3,7 @@ import './style.css';
 import { Link } from 'react-router-dom';
 
 const Denisa = () => (
-    <section className="main--section__denisa">
+<section className="main--section__denisa">
     <div className="container--trainer__denisa">
         <div className="trainer--gallery__denisa">
             <div className="gallery--img denisa--img__1"></div>

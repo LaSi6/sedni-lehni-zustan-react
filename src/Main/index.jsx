@@ -3,7 +3,7 @@ import './style.css';
 import { Link } from 'react-router-dom';
 
 const Main = () => (
-    <>
+    <div className='main'>
     <section className="top-section">
         <div className="main-introduction">
             <div className="introduction-wide">
@@ -37,7 +37,7 @@ const Main = () => (
         <div className="bottom-text-experience">Při výcviku volíme postup individuálně. Pokud se pro nás tedy rozhodnete, rádi se s Vámi podíváme Vašemu pejskovi na zoubek.</div>
         </div>
     </section>
-    </>
+    </div>
 )
 
 export default Main

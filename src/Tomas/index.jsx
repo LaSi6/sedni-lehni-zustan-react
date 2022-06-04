@@ -35,10 +35,10 @@ const Tomas = () => (
                     <p>Rezervaci je možné provést nejdříve 30 dní předem a nejpozději den před termínem. Pokud je políčko šedivé, není možné rezervaci provést.</p>
                 </div>
             </div>
-            <div className="reenio-iframe" data-size="auto"></div>
-            <script src="https://reenio.cz/cs/GEYDAMJS/widget-iframe.js" async defer></script>
         </div>
+        <div className="reenio-iframe" data-size="auto"></div>
     </section>
+    
 )
 
 export default Tomas
