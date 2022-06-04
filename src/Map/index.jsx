@@ -242,7 +242,12 @@ export const Map = () => {
               longitude={popupOtevren.longitude}
               offsetTop={-15}
             >
-              {popupOtevren.name}
+              <a href={popupOtevren.url} target="_blank">
+                {popupOtevren.name}
+              </a>
+
+              <br />
+              {popupOtevren.description}
             </Popup>
           )}
         </ReactMapGL>

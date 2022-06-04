@@ -15,7 +15,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Athiti&family=Cairo:wght@200;300;400;500;700;800;900&family=Exo+2:ital,wght@0,200;0,300;0,400;0,500;0,700;0,900;1,500&family=Josefin+Sans:ital,wght@0,100;0,300;0,400;0,700;1,600&display=swap');
 
 .main--section__map {
-  padding: 70px 0px 50px 0px;
+  padding: 70px 0px 0px 0px;
 }
 
 .marker-button {
@@ -27,7 +27,7 @@
   cursor: pointer;
 }
 
-.map-btns{
+.map-btns {
   display: flex;
   justify-content: space-evenly;
   padding: 30px 0 30px 0;
@@ -39,7 +39,7 @@
 .btn-nonstop,
 .btn-zachranka,
 .btn-cvicak,
-.btn-hotel{
+.btn-hotel {
   width: 100px;
   margin: 5px;
   border: none;
@@ -47,29 +47,29 @@
   border-radius: 3px;
 }
 
-.btn-veterina{
- background-color: #004924;
- color: white;
+.btn-veterina {
+  background-color: #004924;
+  color: white;
 }
 
-.btn-cvicak{
+.btn-cvicak {
   background-color: #00a6da;
   color: white;
 }
 
-.btn-hotel{
+.btn-hotel {
   background-color: #ef51c5;
   color: white;
 }
 
-.btn-nonstop{
+.btn-nonstop {
   background-color: #f03933;
   color: white;
 }
 
-.btn-zachranka{
+.btn-zachranka {
   background-color: black;
-  color: white
+  color: white;
 }
 
 .isActive {
@@ -95,9 +95,8 @@
     brightness(94%) contrast(102%);
 }
 
-@media (min-width:1024px) {
+@media (min-width: 1024px) {
   .main--section__map {
-    padding: 90px 0 50px 0;
+    padding: 90px 0 0 0;
   }
-
 }
