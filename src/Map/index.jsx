@@ -84,7 +84,7 @@ export const Map = () => {
     if (mapRef.current && width && height) {
       const viewport = new WebMercatorViewport({ width, height }).fitBounds(
         cornersLongLat,
-        { padding: 20 }
+        { padding: 35 }
       );
       const { longitude, latitude, zoom } = viewport;
       setViewport({ longitude, latitude, zoom });
@@ -161,7 +161,7 @@ export const Map = () => {
           {...viewport}
           ref={mapRef}
           width="100%"
-          height={400}
+          height='60vh'
           onViewportChange={(nextViewport) => setViewport(nextViewport)}
           mapStyle={{
             version: 8,
