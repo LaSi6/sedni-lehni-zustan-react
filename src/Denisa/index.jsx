@@ -3,41 +3,70 @@ import './style.css';
 import { Link } from 'react-router-dom';
 
 const Denisa = () => (
-<section className="main--section__denisa">
+  <section className="main--section__denisa">
     <div className="container--trainer__denisa">
-        <div className="trainer--gallery__denisa">
-            <div className="gallery--img denisa--img__1"></div>
-            <div className="gallery--img denisa--img__2"></div>
-            <div className="gallery--img denisa--img__3"></div>
+      <div className="trainer--gallery__denisa">
+        <div className="gallery--img denisa--img__1"></div>
+        <div className="gallery--img denisa--img__2"></div>
+        <div className="gallery--img denisa--img__3"></div>
+      </div>
+      <div className="trainer--text__denisa">
+        <div className="text--head__denisa">
+          <h1 className="text--headline__denisa">Denisa Plačková</h1>
+          <a href="trainers.html" className="text--btn__denisa">
+            Rezervovat lekci
+          </a>
         </div>
-        <div className="trainer--text__denisa">
-            <div className="text--head__denisa">
-                <h1 className="text--headline__denisa">Denisa Plačková</h1>
-                <a href="trainers.html" className="text--btn__denisa">Rezervovat lekci</a>
-            </div>
-            <div className="text--main__denisa">
-                <h2 className="text--subheadline2__denisa">Něco málo o mně</h2>
-                <p>Ahoj, jsem Denisa a psi mě provází od dětství. Vše začalo svéhlavým jack russell teriérem, který mne naučil, že mít psa znamená mraky důslednosti, bystrosti a umění být vždy o krok napřed. Postupně mi do života přibyla další různorodá plemena - cane corso, chrt. Se všemi jsem cvičila poslušnost, klikr, trénovala vodní a pozemní záchranařinu a velmi dbala na socializaci. </p>
-                <div className="text--img denisa--img__1narrow"></div>
-                <p> Několik let jsem pracovala ve výcvikovém centru Haf bez Obav, kde jsem měla na starosti hlavně štěňata a adolescenty. Mám zkušenost i s problémovými jedinci a vždy se snažím od začátku do řešení problémů aktivně zapojit i majitele psa - to je jediná cesta, která končí společným spokojeným soužitím onoho psího-lidského páru. </p>
-                <div className="text--img denisa--img__2narrow"></div>
-            </div>
-            <div className="text--lessons__denisa">
-                <h2 className="text--subheadline2__denisa">Lekce a ceník</h2>
-                <p>Lekce vedu především v Praze. Lze se ovšem domluvit také na přilehlé okolí.</p>
-                <p>Hodinová sazba je 500 Kč, v případě větší dojezdové vzdálenosti - vzdálená část Prahy/okraj, se připočítává 5 Kc/km.</p>
-                <div className="text--img denisa--img__3narrow"></div>
-            </div>
-            <div className="text--reservation__denisa">
-                <h1 className="text--headline__denisa">Rezervace</h1>
-                <p>Nejdříve vyberte v kalendáři vámi preferovaný den a potom najdete v kalendáři volné dny s termíny (zeleně zbarvené). Zde si můžete zvolit vybraný termín lekce.</p>
-                <p>Rezervaci je možné provést nejdříve 30 dní předem a nejpozději den před termínem. Pokud je políčko šedivé, není možné rezervaci provést.</p>
-            </div>
+        <div className="text--main__denisa">
+          <h2 className="text--subheadline2__denisa">Něco málo o mně</h2>
+          <p>
+            Ahoj, jsem Denisa a psi mě provází od dětství. Vše začalo svéhlavým
+            jack russell teriérem, který mne naučil, že mít psa znamená mraky
+            důslednosti, bystrosti a umění být vždy o krok napřed. Postupně mi
+            do života přibyla další různorodá plemena - cane corso, chrt. Se
+            všemi jsem cvičila poslušnost, klikr, trénovala vodní a pozemní
+            záchranařinu a velmi dbala na socializaci.{' '}
+          </p>
+          <div className="text--img denisa--img__1narrow"></div>
+          <p>
+            {' '}
+            Několik let jsem pracovala ve výcvikovém centru Haf bez Obav, kde
+            jsem měla na starosti hlavně štěňata a adolescenty. Mám zkušenost i
+            s problémovými jedinci a vždy se snažím od začátku do řešení
+            problémů aktivně zapojit i majitele psa - to je jediná cesta, která
+            končí společným spokojeným soužitím onoho psího-lidského páru.{' '}
+          </p>
+          <div className="text--img denisa--img__2narrow"></div>
         </div>
-        <div className="reenio-iframe" data-size="auto"></div>
-        <script src="https://reenio.cz/cs/GEYDAMJS/widget-iframe.js" async defer></script>
+        <div className="text--lessons__denisa">
+          <h2 className="text--subheadline2__denisa">Lekce a ceník</h2>
+          <p>
+            Lekce vedu především v Praze. Lze se ovšem domluvit také na přilehlé
+            okolí.
+          </p>
+          <p>
+            Hodinová sazba je 500 Kč, v případě větší dojezdové vzdálenosti -
+            vzdálená část Prahy/okraj, se připočítává 5 Kc/km.
+          </p>
+          <div className="text--img denisa--img__3narrow"></div>
+        </div>
+        <div className="text--reservation__denisa">
+          <h1 className="text--headline__denisa">Rezervace</h1>
+          <p>
+            Nejdříve vyberte v kalendáři vámi preferovaný den a potom najdete v
+            kalendáři volné dny s termíny (zeleně zbarvené). Zde si můžete
+            zvolit vybraný termín lekce.
+          </p>
+          <p>
+            Rezervaci je možné provést nejdříve 30 dní předem a nejpozději den
+            před termínem. Pokud je políčko šedivé, není možné rezervaci
+            provést.
+          </p>
+        </div>
+      </div>
     </div>
-</section>
-)
+    <div className="reenio-iframe" data-size="auto"></div>
+  </section>
+);
 
-export default Denisa
+export default Denisa;
