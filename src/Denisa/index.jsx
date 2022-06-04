@@ -13,7 +13,7 @@ const Denisa = () => (
       <div className="trainer--text__denisa">
         <div className="text--head__denisa">
           <h1 className="text--headline__denisa">Denisa Plačková</h1>
-          <a href="trainers.html" className="text--btn__denisa">
+          <a href="#reservation__denisa" className="text--btn__denisa">
             Rezervovat lekci
           </a>
         </div>
@@ -52,6 +52,7 @@ const Denisa = () => (
         </div>
       </div>
     </div>
+    <div id='reservation__denisa'></div>
     <div className="text--reservation__denisa">
           <h1 className="text--headline__denisa">Rezervace</h1>
           <p>
@@ -65,7 +66,7 @@ const Denisa = () => (
             provést.
           </p>
         </div>
-    <div class="reenio-iframe" data-size="auto" data-url="/employee/denisa-plackova-7361/2022-06-06;viewMode=7-days"></div>
+    <div className="reenio-iframe" data-size="auto" data-url="/employee/denisa-plackova-7361/2022-06-06;viewMode=7-days"></div>
   </section>
 );
 

@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { createRoot } from 'react-dom/client';
 import './style.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import Header from './Header';
 import Footer from './Footer';
 import Main from './Main';
@@ -13,10 +13,11 @@ import ArticleControl from './ArticleControl';
 import ArticleEducation from './ArticleEducation';
 import ArticleTrust from './ArticleTrust';
 
+
 const App = () => (
   <>
     <BrowserRouter>
-      <Header />
+      <Header/>
       <Routes>
         <Route path="/" element={<Main />} className="test"/>
         <Route path="mapa" element={<Map />} />

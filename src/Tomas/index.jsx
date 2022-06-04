@@ -13,7 +13,7 @@ const Tomas = () => (
             <div className="trainer--text__tomas">
                 <div className="text--head__tomas">
                     <h1 className="text--headline__tomas">Tomáš Dobiáš</h1>
-                    <a href="trainers.html" className="text--btn__tomas">Rezervovat lekci</a>
+                    <a href="#reservation__tomas" className="text--btn__tomas">Rezervovat lekci</a>
                 </div>
                 <div className="text--main__tomas">
                     <h2 className="text--subheadline2__tomas">Něco málo o mně</h2>
@@ -32,11 +32,11 @@ const Tomas = () => (
             </div>
         </div>
         <div className="text--reservation__tomas">
-                    <h1 className="text--headline__tomas">Rezervace</h1>
+                    <h1 className="text--headline__tomas" id='reservation__tomas'>Rezervace</h1>
                     <p>Nejdříve vyberte v kalendáři vámi preferovaný den a potom najdete v kalendáři volné dny s termíny (zeleně zbarvené). Zde si můžete zvolit vybraný termín lekce.</p>
                     <p>Rezervaci je možné provést nejdříve 30 dní předem a nejpozději den před termínem. Pokud je políčko šedivé, není možné rezervaci provést.</p>
                 </div>
-        <div class="reenio-iframe" data-size="auto" data-url="/employee/tomas-dobias-7358/2022-06-06;viewMode=7-days"></div>
+        <div className="reenio-iframe" data-size="auto" data-url="/employee/tomas-dobias-7358/2022-06-06;viewMode=7-days"></div>
     </section>
     
 )
