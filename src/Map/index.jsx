@@ -11,6 +11,7 @@ import ReactMapGL, {
 import spendlikUrl from './img/spendlik.svg';
 import cx from 'classnames';
 import { useSize } from 'react-hook-size';
+import navigation from './img/compass.svg';
 
 const applyToArray = (func, array) => func.apply(Math, array);
 
@@ -246,8 +247,21 @@ export const Map = () => {
                 {popupOtevren.name}
               </a>
 
-              <br />
-              {popupOtevren.description}
+              <div>{popupOtevren.description}</div>
+              <div>
+                <a
+                  href={
+                    'https://www.google.com/maps/dir/?api=1&destination=' +
+                    popupOtevren.latitude +
+                    ',' +
+                    popupOtevren.longitude
+                  }
+                  target="_blank"
+                >
+                  <img height={16} src={navigation} />
+                  &nbsp;Navigovat
+                </a>
+              </div>
             </Popup>
           )}
         </ReactMapGL>
