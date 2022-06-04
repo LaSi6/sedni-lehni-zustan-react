@@ -25,17 +25,17 @@ const Tomas = () => (
                 </div>
                 <div className="text--lessons__tomas">
                     <h2 className="text--subheadline2__tomas">Lekce a ceník</h2>
-                    <p>Mojí základnou je město Kouřim a pohybuji se v radiusu max do 30 km o víkendech, ve všední jsou možné lekce i v Praze. Nejraději ale lekce vedu na novém cvičáku v Kouřimi, který spadá pod útulek Dogpoint. Lekce je možné mít i mimo cvičák, vše záleží na domluvě.</p>
-                    <p>V případě cvičení v Kouřimi a blízkého okolí (do 10 km) je cena hodinové lekce 500 Kč. V případě dojezdu nad 10 Km budou k hodinové sazbě připočteny náklady na dopravu ve výši 5 Kč/km (např. při dojezdu na okraj Prahy o víkendu je cena lekce 700 Kč/hod).</p>
+                    <p>Mojí základnou je město Kouřim a pohybuji se v radiusu max do 30 km. Nejraději lekce vedu na novém cvičáku v Kouřimi, který spadá pod útulek Dogpoint. Lekce je možné mít i mimo cvičák, vše záleží na domluvě.</p>
+                    <p>Cena hodinové lekce je 500 Kč.</p>
                     <div className="text--img tomas--img__3narrow"></div>
                 </div>
-                <div className="text--reservation__tomas">
+            </div>
+        </div>
+        <div className="text--reservation__tomas">
                     <h1 className="text--headline__tomas">Rezervace</h1>
                     <p>Nejdříve vyberte v kalendáři vámi preferovaný den a potom najdete v kalendáři volné dny s termíny (zeleně zbarvené). Zde si můžete zvolit vybraný termín lekce.</p>
                     <p>Rezervaci je možné provést nejdříve 30 dní předem a nejpozději den před termínem. Pokud je políčko šedivé, není možné rezervaci provést.</p>
                 </div>
-            </div>
-        </div>
         <div className="reenio-iframe" data-size="auto"></div>
     </section>
     

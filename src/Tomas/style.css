@@ -89,10 +89,10 @@
     justify-content: space-between;
 }
 
-.text--main__tomas,
-.text--lessons__tomas,
 .text--reservation__tomas{
-    padding-bottom: 16px;
+    padding: 0 15px 16px 15px;
+    max-width: 475px;
+    min-width: 320px;
 }
 
 .reenio-iframe{
@@ -140,6 +140,11 @@
         display: none;
     }
 
+    .text--reservation__tomas{
+        max-width: 650px;
+        min-width: 650px;
+    }
+
     .reenio-iframe{
         min-width: 650px;
         max-width: 650px;
@@ -157,6 +162,11 @@
         height: 220px;
         max-width: 230px;
         
+    }
+
+    .text--reservation__tomas{
+        max-width: 1024px;
+        min-width: 1024px;
     }
 
     .reenio-iframe{
