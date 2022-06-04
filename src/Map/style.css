@@ -29,7 +29,8 @@
 
 .map-btns {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  align-items: center;
   padding: 30px 0 30px 0;
   flex-wrap: wrap;
 }
@@ -40,45 +41,57 @@
 .btn-zachranka,
 .btn-cvicak,
 .btn-hotel {
-  width: 100px;
+  min-width: 100px;
+  padding: 0 10px 0 10px;
   margin: 5px;
   border: none;
   height: 36px;
   border-radius: 3px;
+  font-size: 16px;
 }
 
 .btn-veterina {
   background-color: #004924;
+  filter: saturate(60%) brightness(200%);
   color: white;
+  opacity: 0.8
 }
 
 .btn-cvicak {
-  background-color: #00a6da;
+  background-color: #0058a1;
+  filter: saturate(70%) brightness(160%);
   color: white;
+  opacity: 0.8
 }
 
 .btn-hotel {
   background-color: #ef51c5;
+  filter: saturate(70%) brightness(160%);
   color: white;
+  opacity: 0.8
 }
 
 .btn-nonstop {
   background-color: #f03933;
+  filter: saturate(60%) brightness(160%);
   color: white;
+  opacity: 0.8
 }
 
 .btn-zachranka {
-  background-color: black;
+  background-color: rgb(29, 29, 29);
+  filter: saturate(60%) brightness(200%);
   color: white;
+  opacity: 0.8
 }
 
 .isActive {
-  font-weight: bold;
-  border: 2px solid black;
+  filter: saturate(100%) brightness(100%);
+  opacity: 1;
 }
+
 .type-cvicak {
-  filter: invert(59%) sepia(42%) saturate(7354%) hue-rotate(163deg)
-    brightness(97%) contrast(101%);
+  filter: invert(21%) sepia(86%) saturate(1992%) hue-rotate(190deg) brightness(94%) contrast(103%)
 }
 .type-hotel {
   filter: invert(60%) sepia(66%) saturate(3345%) hue-rotate(283deg)
@@ -92,7 +105,7 @@
 
 .type-veterina {
   filter: invert(16%) sepia(64%) saturate(1990%) hue-rotate(131deg)
-    brightness(94%) contrast(102%);
+    brightness(114%) contrast(102%);
 }
 
 @media (min-width: 1024px) {
