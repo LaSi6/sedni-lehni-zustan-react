@@ -59,8 +59,8 @@ export const Map = () => {
 
   return (
     <section className="main--section__map">
-      <div>
-        <button
+      <div className='map-btns'>
+        <button className="btn-all"
           onClick={() =>
             setFilter({
               veterina: true,
@@ -76,40 +76,40 @@ export const Map = () => {
             filter.nonstop &&
             filter.cvicak &&
             filter.veterina
-              ? 'isActive'
-              : ''
+              ? 'btn-all isActive'
+              : 'btn-all'
           }
         >
           Vše
         </button>
-        <button
+        <button className ="btn-veterina"
           onClick={() => setFilter({ ...emptyFilter, veterina: true })}
-          className={filter.veterina ? 'isActive' : ''}
+          className={filter.veterina ? 'btn-veterina isActive' : 'btn-veterina'}
         >
           veterina
         </button>
-        <button
+        <button className="btn-nonstop"
           onClick={() => setFilter({ ...emptyFilter, nonstop: true })}
-          className={filter.nonstop ? 'isActive' : ''}
+          className={filter.nonstop ? 'btn-nonstop isActive' : 'btn-nonstop'}
         >
           nonstop veterina
         </button>
-        <button
+        <button className="btn-zachranka"
           onClick={() => setFilter({ ...emptyFilter, zachranka: true })}
-          className={filter.zachranka ? 'isActive' : ''}
+          className={filter.zachranka ? 'btn-zachranka isActive' : 'btn-zachranka'}
         >
           {' '}
           zvířecí záchranka
         </button>
-        <button
+        <button className="btn-cvicak"
           onClick={() => setFilter({ ...emptyFilter, cvicak: true })}
-          className={filter.cvicak ? 'isActive' : ''}
+          className={filter.cvicak ? 'btn-cvicak isActive' : 'btn-cvicak'}
         >
           cvičák
         </button>
-        <button
+        <button className="btn-hotel"
           onClick={() => setFilter({ ...emptyFilter, hotel: true })}
-          className={filter.hotel ? 'isActive' : ''}
+          className={filter.hotel ? 'btn-hotel isActive' : 'btn-hotel'}
         >
           psí hotel
         </button>

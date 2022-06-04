@@ -15,7 +15,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Athiti&family=Cairo:wght@200;300;400;500;700;800;900&family=Exo+2:ital,wght@0,200;0,300;0,400;0,500;0,700;0,900;1,500&family=Josefin+Sans:ital,wght@0,100;0,300;0,400;0,700;1,600&display=swap');
 
 .main--section__map {
-  padding: 100px 15px 50px 15px;
+  padding: 70px 15px 50px 15px;
 }
 
 .marker-button {
@@ -27,8 +27,54 @@
   cursor: pointer;
 }
 
+.map-btns{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px 0 30px 0;
+  flex-wrap: wrap;
+}
+
+.btn-all,
+.btn-veterina,
+.btn-nonstop,
+.btn-zachranka,
+.btn-cvicak,
+.btn-hotel{
+  width: 100px;
+  margin: 5px;
+  border: none;
+  height: 36px;
+  border-radius: 3px;
+}
+
+.btn-veterina{
+ background-color: #004924;
+ color: white;
+}
+
+.btn-cvicak{
+  background-color: #00a6da;
+  color: white;
+}
+
+.btn-hotel{
+  background-color: #ef51c5;
+  color: white;
+}
+
+.btn-nonstop{
+  background-color: #f03933;
+  color: white;
+}
+
+.btn-zachranka{
+  background-color: black;
+  color: white
+}
+
 .isActive {
   font-weight: bold;
+  border: 2px solid black;
 }
 .type-cvicak {
   filter: invert(59%) sepia(42%) saturate(7354%) hue-rotate(163deg)
@@ -44,10 +90,14 @@
     brightness(93%) contrast(86%);
 }
 
-.type-zachranka {
-}
-
 .type-veterina {
   filter: invert(16%) sepia(64%) saturate(1990%) hue-rotate(131deg)
     brightness(94%) contrast(102%);
+}
+
+@media (min-width:1024px) {
+  .main--section__map {
+    padding: 90px 15px 50px 15px;
+  }
+
 }
