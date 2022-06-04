@@ -36,7 +36,7 @@ const Tomas = () => (
                     <p>Nejdříve vyberte v kalendáři vámi preferovaný den a potom najdete v kalendáři volné dny s termíny (zeleně zbarvené). Zde si můžete zvolit vybraný termín lekce.</p>
                     <p>Rezervaci je možné provést nejdříve 30 dní předem a nejpozději den před termínem. Pokud je políčko šedivé, není možné rezervaci provést.</p>
                 </div>
-        <div className="reenio-iframe" data-size="auto"></div>
+        <div class="reenio-iframe" data-size="auto" data-url="/employee/tomas-dobias-7358/2022-06-06;viewMode=7-days"></div>
     </section>
     
 )

@@ -65,7 +65,7 @@ const Denisa = () => (
             provést.
           </p>
         </div>
-    <div className="reenio-iframe" data-size="auto"></div>
+    <div class="reenio-iframe" data-size="auto" data-url="/employee/denisa-plackova-7361/2022-06-06;viewMode=7-days"></div>
   </section>
 );
 
