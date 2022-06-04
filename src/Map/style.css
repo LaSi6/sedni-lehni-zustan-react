@@ -14,10 +14,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Athiti&family=Cairo:wght@200;300;400;500;700;800;900&family=Exo+2:ital,wght@0,200;0,300;0,400;0,500;0,700;0,900;1,500&family=Josefin+Sans:ital,wght@0,100;0,300;0,400;0,700;1,600&display=swap');
 
-.main--section__map{
+.main--section__map {
   padding: 100px 15px 50px 15px;
 }
-
 
 .marker-button {
   padding: 0;
@@ -26,4 +25,29 @@
   display: flex;
   outline: none;
   cursor: pointer;
+}
+
+.isActive {
+  font-weight: bold;
+}
+.type-cvicak {
+  filter: invert(59%) sepia(42%) saturate(7354%) hue-rotate(163deg)
+    brightness(97%) contrast(101%);
+}
+.type-hotel {
+  filter: invert(60%) sepia(66%) saturate(3345%) hue-rotate(283deg)
+    brightness(95%) contrast(82%);
+}
+
+.type-nonstop {
+  filter: invert(33%) sepia(72%) saturate(1578%) hue-rotate(337deg)
+    brightness(93%) contrast(86%);
+}
+
+.type-zachranka {
+}
+
+.type-veterina {
+  filter: invert(16%) sepia(64%) saturate(1990%) hue-rotate(131deg)
+    brightness(94%) contrast(102%);
 }
