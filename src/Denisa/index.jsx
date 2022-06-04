@@ -50,7 +50,9 @@ const Denisa = () => (
           </p>
           <div className="text--img denisa--img__3narrow"></div>
         </div>
-        <div className="text--reservation__denisa">
+      </div>
+    </div>
+    <div className="text--reservation__denisa">
           <h1 className="text--headline__denisa">Rezervace</h1>
           <p>
             Nejdříve vyberte v kalendáři vámi preferovaný den a potom najdete v
@@ -63,8 +65,6 @@ const Denisa = () => (
             provést.
           </p>
         </div>
-      </div>
-    </div>
     <div className="reenio-iframe" data-size="auto"></div>
   </section>
 );
