@@ -14,7 +14,7 @@ const ArticleControl = () => (
                     <ul className='gallery--list__control'>
                         <h1>Články</h1>
                         <li className='list--item__control'>
-                            <Link to="/vychova_pes" className='link--gallery__control'>Výchova štěněte a následně puberťáka</Link>
+                            <Link to="/vychova" className='link--gallery__control'>Výchova štěněte a následně puberťáka</Link>
                         </li>
                         <li className='list--item__control'>
                             <Link to="/duvera_pes" className='link--gallery__control'>Získejte si důvěru</Link>
@@ -42,7 +42,7 @@ const ArticleControl = () => (
                     <ul className='text--list__control'>
                         <h1>Články</h1>
                         <li className='list--item__control'>
-                            <Link to="/vychova_pes" className='link--text__control'>Výchova štěněte a následně puberťáka</Link>
+                            <Link to="/vychova" className='link--text__control'>Výchova štěněte a následně puberťáka</Link>
                         </li>
                         <li className='list--item__control'>
                             <Link to="/duvera_pes" className='link--text__control'>Získejte si důvěru</Link>
