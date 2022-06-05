@@ -31,10 +31,20 @@ const Denisa = () => (
           <p>
             {' '}
             Několik let jsem pracovala ve výcvikovém centru Haf bez Obav, kde
-            jsem měla na starosti hlavně štěňata a adolescenty. Mám zkušenost i
-            s problémovými jedinci a vždy se snažím od začátku do řešení
-            problémů aktivně zapojit i majitele psa - to je jediná cesta, která
-            končí společným spokojeným soužitím onoho psího-lidského páru.{' '}
+            jsem měla na starosti hlavně štěňata a adolescenty. Mám{' '}
+            <Link to="/kontrola_pes" className="text--link__tomas">
+              zkušenost i s problémovými jedinci a vždy se snažím od začátku do
+              řešení problémů aktivně zapojit i majitele psa
+            </Link>{' '}
+            - to je jediná cesta, která končí společným spokojeným soužitím
+            onoho psího-lidského páru.
+            <Link to="/duvera_pes" className="text--link__tomas">
+              Budování důvěry musí být oboustranné.
+            </Link>{' '}
+            Neváhejte se na mne{' '}
+            <Link to="/vychova" className="text--link__tomas">
+              obrátit hned, jak si přinesete nového člena rodiny.
+            </Link>
           </p>
           <div className="text--img denisa--img__2narrow"></div>
         </div>
@@ -52,21 +62,24 @@ const Denisa = () => (
         </div>
       </div>
     </div>
-    <div id='reservation__denisa'></div>
+    <div id="reservation__denisa"></div>
     <div className="text--reservation__denisa">
-          <h1 className="text--headline__denisa">Rezervace</h1>
-          <p>
-            Nejdříve vyberte v kalendáři vámi preferovaný den a potom najdete v
-            kalendáři volné dny s termíny (zeleně zbarvené). Zde si můžete
-            zvolit vybraný termín lekce.
-          </p>
-          <p>
-            Rezervaci je možné provést nejdříve 30 dní předem a nejpozději 2 dny
-            před termínem. Pokud je políčko šedivé, není možné rezervaci
-            provést.
-          </p>
-        </div>
-    <div className="reenio-iframe" data-size="auto" data-url="/employee/denisa-plackova-7361/2022-06-06;viewMode=7-days"></div>
+      <h1 className="text--headline__denisa">Rezervace</h1>
+      <p>
+        Nejdříve vyberte v kalendáři vámi preferovaný den a potom najdete v
+        kalendáři volné dny s termíny (zeleně zbarvené). Zde si můžete zvolit
+        vybraný termín lekce.
+      </p>
+      <p>
+        Rezervaci je možné provést nejdříve 30 dní předem a nejpozději 2 dny
+        před termínem. Pokud je políčko šedivé, není možné rezervaci provést.
+      </p>
+    </div>
+    <div
+      className="reenio-iframe"
+      data-size="auto"
+      data-url="/employee/denisa-plackova-7361/2022-06-06;viewMode=7-days"
+    ></div>
   </section>
 );
 
