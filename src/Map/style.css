@@ -12,7 +12,7 @@
   --text-hover-b: rgba(1, 161, 94, 1);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Athiti&family=Cairo:wght@200;300;400;500;700;800;900&family=Exo+2:ital,wght@0,200;0,300;0,400;0,500;0,700;0,900;1,500&family=Josefin+Sans:ital,wght@0,100;0,300;0,400;0,700;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,200;0,300;0,400;0,500;0,700;0,900;1,500&display=swap');
 
 .main--section__map {
   padding: 70px 0px 270px 0px;
@@ -48,41 +48,36 @@
   height: 36px;
   border-radius: 3px;
   font-size: 16px;
+  color: white;
+  opacity: 0.8
 }
 
+.btn-all{
+  color: black;
+}
 .btn-veterina {
   background-color: #004924;
   filter: saturate(60%) brightness(200%);
-  color: white;
-  opacity: 0.8
 }
 
 .btn-cvicak {
   background-color: #0058a1;
   filter: saturate(70%) brightness(160%);
-  color: white;
-  opacity: 0.8
 }
 
 .btn-hotel {
   background-color: #ef51c5;
   filter: saturate(70%) brightness(160%);
-  color: white;
-  opacity: 0.8
 }
 
 .btn-nonstop {
   background-color: #f03933;
   filter: saturate(60%) brightness(160%);
-  color: white;
-  opacity: 0.8
 }
 
 .btn-zachranka {
   background-color: rgb(29, 29, 29);
   filter: saturate(60%) brightness(200%);
-  color: white;
-  opacity: 0.8
 }
 
 .isActive {
