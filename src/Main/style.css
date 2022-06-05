@@ -87,6 +87,7 @@
     margin-right: 20px;
     margin-bottom: 20px;
     align-items: center;
+    text-decoration: none;
 }
 
 .tile-img{
@@ -119,6 +120,7 @@
     padding: 15px;
     text-align: center;
     font-size: 16px;
+    text-decoration: none;
 }
 
 .tile-link {
@@ -127,13 +129,12 @@
     padding-left: 15px;
     padding-bottom: 10px;
     font-size: 24px;
-    color: var(--text-var-a);
     text-align: center;
-    text-decoration: underline;
-    font-weight: 400;
+    text-decoration: none;
+    font-weight: 500;
 }
 
-.tile a:hover {
+.tile:hover {
     color: var(--text-hover-b);
 }
 
@@ -153,9 +154,18 @@
 }
 
 .bottom-text-experience {
-    padding-bottom: 20px;
     max-width: 445px;
     margin: 20px;
+}
+
+/* Rezervace */
+
+.headline-reservation{
+    width: 345px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
 }
 
 @media (min-width:800px) {
@@ -204,6 +214,11 @@
     .bottom-text-experience {
         width: 300px;
     }
+
+    .headline-reservation{
+        width: 650px;
+        font-size: 32px;
+    }
 }
 
 @media (min-width:1024px) {
@@ -228,7 +243,7 @@
 
     .headline-experience{
         font-size: 36px;
-        width: 1025px;
+        width: 1024px;
     }
 
     .tiles-experience{
@@ -242,6 +257,11 @@
     .bottom-text-experience{
         width: 600px;
         font-size: 18px;
+    }
+
+    .headline-reservation{
+        font-size: 36px;
+        width: 1024px;
     }
 }
 

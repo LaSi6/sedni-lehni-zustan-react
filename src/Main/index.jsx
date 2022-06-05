@@ -19,22 +19,26 @@ const Main = () => (
     <section className="main-experience">
         <h1 className="headline-experience">Máme zkušenosti s...</h1>
         <div className="tiles-experience">
-        <div className="tile">
+        <Link to="/vychova" className="tile">
             <div className="tile-img tile-img_first"></div>
             <div className="tile-text tile-text_first">... mladými a nevycválanými dacany.</div>
-            <Link to="/vychova" className="tile-link tile-link_first">Výchova puberťáka</ Link>
-        </div>
-        <div className="tile">
+            <div className="tile-link tile-link_first">Výchova puberťáka </div>
+        </ Link>
+        <Link to="/kontrola_pes" className="tile">
             <div className="tile-img tile-img_second"></div>
             <div className="tile-text tile-text_second">... sebevědomými a chytrými svéhlavci.</div>
-            <Link to="/kontrola_pes" className="tile-link tile-link_second">Mějte kontrolu</ Link>
-        </div>
-        <div className="tile">
+            <div className="tile-link tile-link_second">Mějte kontrolu</div>
+        </ Link>
+        <Link to="/duvera_pes" className="tile">
             <div className="tile-img tile-img_third"></div>
             <div className="tile-text tile-text_third">... bázlivými dušemi s pohnutým osudem.</div>
-            <Link to="/duvera_pes" className="tile-link tile-link_third">Získejte si důvěru</ Link>
-        </div>
+            <div className="tile-link tile-link_third">Získejte si důvěru</div>
+        </Link>
         <div className="bottom-text-experience">Při výcviku volíme postup individuálně. Pokud se pro nás tedy rozhodnete, rádi se s Vámi podíváme Vašemu pejskovi na zoubek.</div>
+        </div>
+        <div>
+            <h1 className='headline-reservation'>Rezervace lekcí</h1>
+            <div className="reenio-iframe" data-size="auto"></div>
         </div>
     </section>
     </div>

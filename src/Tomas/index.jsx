@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Tomas = () => (
     <section className="main--section__tomas">
@@ -21,7 +21,7 @@ const Tomas = () => (
                     <div className="text--img tomas--img__1narrow"></div>
                     <p> Velmi rád pozoruji, jak správným přístupem se z <Link to="/duvera_pes" className="text--link__tomas">nejistého a bojácného psa stává milující a sebevědomý přítel člověka.</Link> Pomůžu vám pochopit, jak s takovýmto pejskem pracovat, jak nacvičovat manipulaci a jak posílit vaší i pejskovu sebejistotu. Stejně tak ale dokáži pracovat s přespříliš sebevědomými psy, kteří mohou někdy páníčkům přerůstat přes hlavu. Tady vám <Link to="/kontrola_pes" className="text--link__tomas">pomohu nastavit hranice a ukáži vám, jak převzít kontrolu </Link> nad vaším společným životem. </p>
                     <div className="text--img tomas--img__2narrow"></div>
-                    <p>Pokud jste si v nedávné době pořídili štěně nebo puberťáka, rád Vás provedu výchovou, aby jste vedle sebe měli parťáka, na kterého se můžete spolehnout a váš pejsek ve vás viděl pána, kterému důvěřuje a může mu přenechat kontrolu.</p>
+                    <p>Pokud jste si v nedávné době pořídili štěně nebo puberťáka, <Link to="/vychova" className="text--link__tomas">rád Vás provedu výchovou,</Link> aby jste vedle sebe měli parťáka, na kterého se můžete spolehnout a váš pejsek ve vás viděl pána, kterému důvěřuje a může mu přenechat kontrolu.</p>
                 </div>
                 <div className="text--lessons__tomas">
                     <h2 className="text--subheadline2__tomas">Lekce a ceník</h2>

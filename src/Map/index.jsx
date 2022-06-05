@@ -153,6 +153,7 @@ export const Map = () => {
       </div>
       <div ref={mapContainerRef}>
         <ReactMapGL
+          className='mapa'
           {...viewport}
           ref={mapRef}
           width="100%"
@@ -238,18 +239,20 @@ export const Map = () => {
             })}
           {popupOtevren && (
             <Popup
+              className='popup'
               onClose={() => setPopupOtevren(null)}
               latitude={popupOtevren.latitude}
               longitude={popupOtevren.longitude}
               offsetTop={-15}
             >
-              <a href={popupOtevren.url} target="_blank">
+              <a href={popupOtevren.url} target="_blank" className='popup-name'>
                 {popupOtevren.name}
               </a>
 
-              <div>{popupOtevren.description}</div>
+              <div className='popup-description'>{popupOtevren.description}</div>
               <div>
                 <a
+                  className='popup-navigation'
                   href={
                     'https://www.google.com/maps/dir/?api=1&destination=' +
                     popupOtevren.latitude +

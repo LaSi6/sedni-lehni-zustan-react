@@ -4,7 +4,7 @@
   --background-var-a: rgba(250, 241, 165, 1);
   --background-var-b: rgba(191, 230, 206, 1);
   --background-var-c: rgba(214, 213, 213, 1);
-  --text-h1: rgba(250, 241, 165, 1);
+  --text-h1: rgb(250, 241, 165);
   --text-var-a: rgba(0, 83, 48, 1);
   --text-var-b: rgba(3, 3, 3, 1);
   --text-var-c: rgba(255, 255, 255, 1);
@@ -90,6 +90,10 @@
   opacity: 1;
 }
 
+.mapa{
+  filter: grayscale(100%) contrast(120%);
+}
+
 .type-cvicak {
   filter: invert(21%) sepia(86%) saturate(1992%) hue-rotate(190deg) brightness(94%) contrast(103%)
 }
@@ -106,6 +110,30 @@
 .type-veterina {
   filter: invert(16%) sepia(64%) saturate(1990%) hue-rotate(131deg)
     brightness(114%) contrast(102%);
+}
+
+.popup{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.popup-name,
+.popup-navigation{
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--text-var-a);
+}
+
+.popup-name:hover,
+.popup-navigation:hover{
+  color: var(--text-hover-b);
+  text-decoration: underline;
+}
+
+.popup-description{
+  padding: 10px 0 10px 0;
 }
 
 @media (min-width: 1024px) {
