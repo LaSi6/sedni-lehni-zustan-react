@@ -1,0 +1,30 @@
+.text--headline__contacts {
+  font-size: 28px;
+  color: var(--text-var-b);
+  line-height: 32px;
+  margin-top: 70px;
+}
+
+.main--section__contacts {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.text--subheadline2__contacts {
+  font-size: 24px;
+  color: var(--text-var-a);
+  line-height: 36px;
+  padding: 0px 0 16px 0;
+}
+
+.text--contacts {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.contact {
+  margin-left: 20px;
+  margin-top: 5px;
+}
