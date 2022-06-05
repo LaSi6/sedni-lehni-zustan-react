@@ -25,7 +25,7 @@ const Tomas = () => (
                 </div>
                 <div className="text--lessons__tomas">
                     <h2 className="text--subheadline2__tomas">Lekce a ceník</h2>
-                    <p>Mojí základnou je město Kouřim a pohybuji se v rádiusu max do 30 km. Nejraději lekce vedu na novém cvičáku v Kouřimi, který spadá pod útulek Dogpoint. Lekce je možné mít i mimo cvičák, vše záleží na domluvě.</p>
+                    <p>Mojí základnou je město Kouřim a jsem ochotný dojet za klienty do vzdálenosti 30 km. Nejraději však lekce vedu na novém cvičáku v Kouřimi, který spadá pod útulek Dogpoint. Lekce je možné mít i mimo cvičák, vše záleží na domluvě.</p>
                     <p>Cena hodinové lekce je 500 Kč.</p>
                     <div className="text--img tomas--img__3narrow"></div>
                 </div>

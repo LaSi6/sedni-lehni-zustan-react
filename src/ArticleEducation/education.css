@@ -169,11 +169,11 @@ p {
         color: var(--text-var-a);
         line-height: 24px;
         padding: 16px 0 0 0;
+        text-decoration: none;
     }
     
     .link--gallery__education:hover{
         color: var(--text-hover-b);
-        text-decoration: underline;
     }
 
     .text--list__education{

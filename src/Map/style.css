@@ -90,6 +90,10 @@
   opacity: 1;
 }
 
+.isActive:hover{
+  text-decoration: underline;
+}
+
 .mapa{
   filter: grayscale(100%) contrast(120%);
 }
