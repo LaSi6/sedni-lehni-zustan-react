@@ -33,8 +33,7 @@
 .article--text__education{
     margin-top: 20px;
     color: var(--text-var-b);
-    border-left: 0.5px solid var(--background-primary);
-    padding-left: 15px;
+    padding-left: 10px;
 }
 
 .text--head__education{
@@ -70,7 +69,7 @@ p {
 .text--highlight__education{
     border: 0.5px solid var(--background-primary);
     background-color: var(--background-var-b);
-    padding: 5px;
+    padding: 10px;
     margin-bottom: 16px;
 }
 
@@ -126,6 +125,10 @@ p {
     
     .article--gallery__education{
         padding: 0 20px 20px 0;
+    }
+
+    .article--text__education{
+        padding-left: 20px;
     }
 
     .gallery--img{
@@ -186,6 +189,10 @@ p {
 
     .container--article__education{
         max-width: 1024px;
+    }
+
+    .article--text__education{
+        padding-left: 30px;
     }
 
     .gallery--img{

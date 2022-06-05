@@ -61,7 +61,7 @@ const Denisa = () => (
             zvolit vybraný termín lekce.
           </p>
           <p>
-            Rezervaci je možné provést nejdříve 30 dní předem a nejpozději den
+            Rezervaci je možné provést nejdříve 30 dní předem a nejpozději 2 dny
             před termínem. Pokud je políčko šedivé, není možné rezervaci
             provést.
           </p>

@@ -13,7 +13,7 @@ const ArticleTrust = () => (
                     <ul className='gallery--list__trust'>
                         <h1>Články</h1>
                         <li className='list--item__trust'>
-                            <Link to="/vychova_pes" className='link--gallery__trust'>Výchova štěněte a následně puberťáka</Link>
+                            <Link to="/vychova" className='link--gallery__trust'>Výchova štěněte a následně puberťáka</Link>
                         </li>
                         <li className='list--item__trust'>
                             <Link to="/kontrola_pes" className='link--gallery__trust'>Mějte kontrolu nad svým psem</Link>
@@ -43,7 +43,7 @@ const ArticleTrust = () => (
                     <ul className='text--list__trust'>
                         <h1>Články</h1>
                         <li className='list--item__trust'> 
-                            <Link to="/vychova_pes" className='link--text__trust'>Výchova štěněte a následně puberťáka</Link>
+                            <Link to="/vychova" className='link--text__trust'>Výchova štěněte a následně puberťáka</Link>
                         </li>
                         <li className='list--item__trust'>
                             <Link to="/kontrola_pes" className='link--text__trust'>Mějte kontrolu nad svým psem</Link>

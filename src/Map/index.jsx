@@ -135,7 +135,6 @@ export const Map = () => {
             filter.zachranka ? 'btn-zachranka isActive' : 'btn-zachranka'
           }
         >
-          {' '}
           zvířecí záchranka
         </button>
         <button
