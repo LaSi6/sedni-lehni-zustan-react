@@ -49,6 +49,8 @@
 
 .text--btn__denisa:hover{
     background-color: var(--text-hover-b);
+    box-shadow: 2px 2px 2px rgba(63, 63, 63, 0.2);
+    transform: scale(1.05)
 }
 .container--trainer__denisa{
     padding: 15px;
