@@ -9,7 +9,7 @@ const Main = () => (
             <div className="introduction-wide">
                 <h1 className="headline-main">Aby byl váš společný život jednodušší</h1> 
                 <div className="introduction-narrow">
-                    <p className="introduction-text">Pes je odrazem svého pána a je důležité najít společnou řeč. Pokud si ještě nejste jistí, že se Vám to podařilo, naši zkušení trenéři Vám v tom rádi pomohou. Na naší mapě potom naleznete ověřená místa, která se každému pejskaři mohou hodit.</p>
+                    <p className="introduction-text">Pes je odrazem svého pána a je důležité najít společnou řeč. Pokud si ještě nejste jistí, že se Vám to podařilo, naši zkušení trenéři Vám v tom rádi pomohou. Na naší mapě naleznete ověřená místa, která se každému pejskaři mohou hodit.</p>
                     <div className="img-narrow-screen"></div>
                 </div>
             </div>
@@ -32,9 +32,9 @@ const Main = () => (
         <Link to="/duvera_pes" className="tile">
             <div className="tile-img tile-img_third"></div>
             <div className="tile-text tile-text_third">... bázlivými dušemi s pohnutým osudem.</div>
-            <div className="tile-link tile-link_third">Získejte si důvěru</div>
+            <div className="tile-link tile-link_third">Získejte důvěru</div>
         </Link>
-        <div className="bottom-text-experience">Při výcviku volíme postup individuálně. Pokud se pro nás tedy rozhodnete, rádi se s Vámi podíváme Vašemu pejskovi na zoubek.</div>
+        <div className="bottom-text-experience">Při výcviku volíme postup individuálně. Pokud se pro nás rozhodnete, rádi se s Vámi podíváme Vašemu pejskovi na zoubek.</div>
         </div>
         <div>
             <h1 className='headline-reservation'>Rezervace lekcí</h1>
