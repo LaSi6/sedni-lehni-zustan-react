@@ -61,14 +61,14 @@
 }
 
 .tomas--img__1narrow{
-    background-image: url(./img/Tom_hra.jpg);
+    background-image: url(./img/Tom_hra.jpeg);
 }
 .tomas--img__2narrow{
-    background-image: url(./img/Tom_vycvik.jpg);
+    background-image: url(./img/Tom_vycvik.jpeg);
     background-position: top 20% right;
 }
 .tomas--img__3narrow{
-    background-image: url(./img/Tom_sprt.jpg);
+    background-image: url(./img/Tom_sprt.jpeg);
     background-position: top 35% right;
 }
 
@@ -122,17 +122,17 @@
         margin: 0 20px 0 0;
     }
     .tomas--img__1{
-        background-image: url(./img/Tom_hra.jpg);
+        background-image: url(./img/Tom_hra.jpeg);
         background-position: top right 30%;
     }
 
     .tomas--img__2{
-        background-image: url(./img/Tom_vycvik.jpg);
+        background-image: url(./img/Tom_vycvik.jpeg);
         background-position: top 30% right;
     }
 
     .tomas--img__3{
-        background-image: url(./img/Tom_sprt.jpg);
+        background-image: url(./img/Tom_sprt.jpeg);
         background-position: top 30% right;
     }
 
