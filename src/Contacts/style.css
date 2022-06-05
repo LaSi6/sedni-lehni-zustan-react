@@ -78,6 +78,7 @@
   }
   .img--contacts__denisa{
     background-image: url(./img/denisa1.jpeg);
+    background-position: center;
   }
   
   .img--contacts__tomas{
@@ -96,20 +97,6 @@
   .main--section__contacts{
       max-width: 1024px;
       min-width: 1024px;
-  }
-
-  .img--contacts__denisa{
-    background-image: url(./img/denisa1.jpeg);
-  }
-  
-  .img--contacts__tomas{
-    background-image: url(./img/tomas_kontakt.jpeg);
-  }
-  
-  .img--contacts{
-    height: 300px;
-    width: 300px;
-    background-size: cover;
   }
 
 }
