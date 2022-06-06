@@ -45,6 +45,15 @@
   line-height: 36px;
   text-align: left;
   margin-left: 10px;
+  text-decoration: none;
+}
+
+.contact-link{
+  color: var(--text-var-a);
+}
+
+.contact-link:hover{
+  color: var(--text-hover-b);
 }
 
 @media (min-width:800px) {

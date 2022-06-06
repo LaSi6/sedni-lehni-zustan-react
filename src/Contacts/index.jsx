@@ -1,6 +1,5 @@
 import React from 'react';
 import './style.css';
-import { useNavigate } from 'react-router-dom';
 
 const Contacts = () => (
   <div className="main--contacts">
@@ -14,11 +13,11 @@ const Contacts = () => (
       </div>
       <div className="text--contacts">
         <h2 className="text--subheadline2__contacts">email:</h2>
-        <div className="contact">dejna.p@centrum.cz</div>
+        <a href="mailto:dejna.p@centrum.cz"className="contact contact-link">dejna.p@centrum.cz</a>
       </div>
       <div className="text--contacts">
         <h2 className="text--subheadline2__contacts">mobil:</h2>
-        <div className="contact">+420 777 303 211</div>
+        <a href="tel:+420777303211" className="contact contact-link">+420 777 303 211</a>
       </div>
       <div className="text--contacts">
         <h2 className="text--subheadline2__contacts">působnost:</h2>
@@ -37,11 +36,11 @@ const Contacts = () => (
       </div>
       <div className="text--contacts">
         <h2 className="text--subheadline2__contacts">email:</h2>
-        <div className="contact">dobiastomas@seznam.cz</div>
+        <a href="mailto:dobiastomas@seznam.cz"className="contact contact-link">dobiastomas@seznam.cz</a>
       </div>
       <div className="text--contacts">
         <h2 className="text--subheadline2__contacts">mobil:</h2>
-        <div className="contact">+420 736 177 353</div>
+        <a href="tel:+420736177353"className="contact contact-link">+420 736 177 353</a>
       </div>
       <div className="text--contacts">
         <h2 className="text--subheadline2__contacts">působnost:</h2>
