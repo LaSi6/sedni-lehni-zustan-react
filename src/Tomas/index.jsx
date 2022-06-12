@@ -36,7 +36,7 @@ const Tomas = () => (
                     <p>Nejdříve vyberte v kalendáři vámi preferovaný den a potom pod kalendářem najdete volné dny s termíny (zeleně zbarvené). Zde si můžete zvolit vybraný termín lekce.</p>
                     <p>Rezervaci je možné provést nejdříve 30 dní předem a nejpozději 2 dny před termínem. Pokud je políčko šedivé, není možné rezervaci provést. Pokud chcete cvičit v Dog parku, zaškrtněte políčko při vytváření rezervace. Pokud nechcete, napište, prosím, do poznámky, kde bude lekce probíhat. </p>
                 </div>
-        <div className="reenio-iframe" data-size="auto" data-url="/employee/tomas-dobias-7358/2022-06-06;viewMode=7-days"></div>
+        <div className="reenio-iframe" data-size="auto" data-url="/employee/tomas-dobias-7358/"></div>
     </section>
     
 )

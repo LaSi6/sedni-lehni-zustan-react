@@ -32,17 +32,17 @@ const Denisa = () => (
             {' '}
             Několik let jsem pracovala ve výcvikovém centru Haf bez Obav, kde
             jsem měla na starosti hlavně štěňata a adolescenty. Mám{' '}
-            <Link to="/kontrola_pes" className="text--link__tomas">
+            <Link to="/kontrola_pes" className="text--link__denisa">
               zkušenost i s problémovými jedinci a vždy se snažím od začátku do
               řešení problémů aktivně zapojit i majitele psa
             </Link>{' '}
             - to je jediná cesta, která končí společným spokojeným soužitím
-            onoho psího-lidského páru.
-            <Link to="/duvera_pes" className="text--link__tomas">
+            onoho psího-lidského páru.{' '}
+            <Link to="/duvera_pes" className="text--link__denisa">
               Budování důvěry musí být oboustranné.
             </Link>{' '}
             Neváhejte se na mne{' '}
-            <Link to="/vychova" className="text--link__tomas">
+            <Link to="/vychova" className="text--link__denisa">
               obrátit hned, jak si přinesete nového člena rodiny.
             </Link>
           </p>
@@ -78,7 +78,7 @@ const Denisa = () => (
     <div
       className="reenio-iframe"
       data-size="auto"
-      data-url="/employee/denisa-plackova-7361/2022-06-06;viewMode=7-days"
+      data-url="/employee/denisa-plackova-7361/"
     ></div>
   </section>
 );

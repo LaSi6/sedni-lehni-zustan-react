@@ -69,7 +69,9 @@
 }
 
 .text--link__denisa{
-    color: var(--text-var-a);;
+    color: var(--text-hover-b);
+    text-decoration: none;
+    font-weight: 600;
 }
 
 .text--link__denisa:hover{
