@@ -29,33 +29,39 @@ const Denisa = () => (
           </p>
           <div className="text--img denisa--img__1narrow"></div>
           <p>
-            {' '}
-            Několik let jsem pracovala ve výcvikovém centru Haf bez Obav, kde
-            jsem měla na starosti hlavně štěňata a adolescenty. Mám{' '}
-            <Link to="/kontrola_pes" className="text--link__denisa">
-              zkušenost i s problémovými jedinci a vždy se snažím od začátku do
-              řešení problémů aktivně zapojit i majitele psa
-            </Link>{' '}
-            - to je jediná cesta, která končí společným spokojeným soužitím
-            onoho psího-lidského páru.{' '}
-            <Link to="/duvera_pes" className="text--link__denisa">
-              Budování důvěry musí být oboustranné.
-            </Link>{' '}
-            Neváhejte se na mne{' '}
-            <Link to="/vychova" className="text--link__denisa">
-              obrátit hned, jak si přinesete nového člena rodiny.
-            </Link>
-          </p>
-          <div className="text--img denisa--img__2narrow"></div>
-        </div>
-        <div className="text--lessons__denisa">
-          <h2 className="text--subheadline2__denisa">Lekce a ceník</h2>
-          <p>
-            Lekce vedu především v Praze. Lze se ovšem domluvit také na přilehlé
-            okolí.
-          </p>
-          <p>
-            Hodinová sazba je 500 Kč, v případě větší dojezdové vzdálenosti -
+            <p>
+              {' '}
+              Několik let jsem pracovala ve výcvikovém centru Haf bez Obav, kde
+              jsem měla na starosti hlavně štěňata a adolescenty.{' '}
+            </p>
+            <p>
+              Mám{' '}
+              <Link to="/kontrola_pes" className="text--link__denisa">
+                zkušenost i s problémovými jedinci a vždy se snažím od začátku
+                do řešení problémů aktivně zapojit i majitele psa
+              </Link>{' '}
+              - to je jediná cesta, která končí společným spokojeným soužitím
+              onoho psího-lidského páru.
+            </p>
+            <p>
+              Základ jakéhokoliv vztahu je důvěra mezi dvěmi jedinci. Pomocí
+              společných aktivit, cvičení a her se vytváří vazba, který je
+              naprosto zásadní pro další spolupráci a pohodové soužití.
+              <Link to="/duvera_pes" className="text--link__denisa">
+                Budování důvěry musí být oboustranné.
+              </Link>{' '}
+            </p>
+            <p>
+              Abyste mohli mít od počátku s pejskem pohodový společný čas, musí
+              se na všem výše zmíněném pracovat hned poté, co si nového člena
+              rodiny donesete od zodpovědného chovatele, který již hned po
+              narození nepodcenil socializaci. Nyní přebíráte štafetu Vy a
+              mátevše ve svyých rukou. Neváhejte se na mne tedy{' '}
+              <Link to="/vychova" className="text--link__denisa">
+                obrátit hned, jak si přinesete nového člena rodiny.
+              </Link>
+            </p>
+            Hodinová sazba je 700 Kč, v případě větší dojezdové vzdálenosti -
             vzdálená část Prahy/okraj, se připočítává 5 Kc/km.
           </p>
           <div className="text--img denisa--img__3narrow"></div>
